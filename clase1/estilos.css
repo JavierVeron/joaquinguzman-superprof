@@ -1,0 +1,13 @@
+.campos {
+    padding:10px;
+    background-color: bisque;
+    margin-bottom: 5px;
+}
+
+label {
+    display: block;
+}
+
+input, textarea {
+    width: 100%;
+}

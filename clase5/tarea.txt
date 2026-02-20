@@ -1,0 +1,11 @@
+Crear una API CRUD de personajes de "Valorant", donde debería tener la siguiente estructura:
+
+[GET] /api/valorant/ => Obtiene todos los Agentes de Valorant
+[GET] /api/valorant/{id} => Busca un Agente por su id
+[POST] /api/valorant/ => Agregar un Nuevo Agente (nombre, rol, nacionalidad)
+[PUT] /api/valorant/{id} => Edita un Agente
+[DEL] /api/valorant/{id} => Elimina un Agente
+
+Observaciones:
+- Utilizar Express, con los métodos GET, POST, PUT y DELETE
+- Utilizar Arrays, vamos a utilizar métodos push (agregar elementos), find (buscar elementos) y filter (eliminar elementos)
